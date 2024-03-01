@@ -94,3 +94,92 @@ int main(){
     }
     return 0;
 }*/
+/*#include<iostream>
+using namespace std;
+ int sum(int a, int b);
+ int multiplication(int a , int b);
+  int subtraction(int a , int b);
+  float division(float a , float b);
+int main(){
+    int num1 , num2;
+    cout<<"enter the value of num1 "<<endl;
+    cin>>num1;
+    cout<<"enter the value of num2 "<<endl;
+    cin>>num2;
+    cout<<"so the value of sum of num1 and num2 is "<<sum(num1 ,num2)<<endl;
+    cout<<"so the multipluactio of two numbers is given by "<<multiplication(num1,num2)<<endl;
+    cout<<"so if we subtract two digits given above we goinna get "<<subtraction(num1, num2)<<endl;
+    cout<<"so the division of two numbers will be "<<division(num1 , num2 )<<endl;
+    return 0;
+}
+ int sum(int a, int b){
+  int c= a+b;
+  return c;
+}
+ int multiplication (int a , int b){
+    int c= a * b;
+  return c;
+}
+int subtraction(int a , int b){  
+    int c= a - b;
+  return c;}
+ float division(float a , float b){
+    float c= a / b;
+  return c;
+}*/
+//**********swap with values*********
+/*#include<iostream>
+using namespace std;
+swap(int a,int b){
+    int t = a ;
+    a = b ;
+    b = t;
+}
+int main(){
+    int x= 23;
+    int y = 55;
+  cout<<"the value of x is " <<x<<endl<<"the value of y is "<<y<<endl;
+  swap(x , y);
+  cout<<"the value of x is " <<x<<endl<<"the value of y is "<<y<<endl;
+  return 0;
+}*/
+//**********swap with reference ********
+/*#include<iostream>
+using namespace std;
+ void swapRef(int &a,int &b){
+    int t = a ;
+    a = b ;
+    b = t;
+};
+int main(){
+    int x= 23;
+    int y = 55;
+  cout<<"the value of x is " <<x<<endl<<"the value of y is "<<y<<endl;
+  swapRef( x , y);
+  cout<<"the value of x is " <<x<<endl<<"the value of y is "<<y<<endl;
+  return 0;
+}*/
+/*#include<iostream>
+using namespace std;
+
+int arr[8];
+int sum ;
+int main(){
+  for(int i=0 ; i<8; i++ ){
+    cout<<" enter the value of i " <<endl;
+    cin>>arr[i];
+    //cout<<arr[i];
+  }
+  for( int i = 0; i<8; i++ ){
+     sum =  sum +  arr[i];
+  }
+cout<<" so the sum of arrays is "<<sum;
+  
+    return 0;
+}*/
+#include<iostream>
+using namespace std;
+int main(){
+int arr
+return 0;
+}
