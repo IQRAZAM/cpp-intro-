@@ -177,9 +177,60 @@ cout<<" so the sum of arrays is "<<sum;
   
     return 0;
 }*/
+//**********reversing array method#1***************
+/*#include<iostream>
+using namespace std;
+int main(){
+    int n ;
+    cout<<"enter the value of n "<<endl;
+    cin>>n;
+    int arr[n];
+    for(int i = 0 ; i < n; i++){
+        cin>>arr[i];
+        cout<<arr[i]<<endl;
+    }
+    cout<<"the reverse of the arrays is "<<endl;
+    for(int i = n-1; i>= 0; i--){
+        cout<<arr[i]<<endl;
+    }
+return 0;
+}*/
+//********reversing an array 2nd Mehod **********
+/*#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter the value of n "<<endl;
+    cin>>n;
+ int s = 0 ;
+ int e = n-1;
+ int arr[n];
+ cout<<"enter the value of array"<<endl;
+ for(int i = 0 ; i < n ; i++){
+    cin>>arr[i];
+ }
+ while(s<e){
+    swap(arr[s],arr[e]);
+    s++;
+    e--;
+ }
+ for(int i = 0 ; i < n ; i++){
+    cout<<arr[i]<<endl;
+ }
+return 0;
+}*/
+//***********corresspodence of arrays ********
 #include<iostream>
 using namespace std;
 int main(){
-int arr
+int arr1[10] = {0,1,2,3,4,5,6,7,8,9};
+int arr2[10] = {0,1,2,3,4,5,6,7,8,9};
+if(arr1[1]==arr2[1],arr1[2]==arr2[2],arr1[3]==arr2[3],arr1[4]==arr2[4],arr1[5]==arr2[5],arr1[6]==arr2[6],arr1[7]==arr2[7]){
+    cout<<"so the corresponding elements of array are same "<<endl;
+    return true;
+}else{
+    cout<<"corresponding elemts of an array are not same "<<endl;
+    return false;
+}
 return 0;
 }
