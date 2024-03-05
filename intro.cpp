@@ -220,7 +220,7 @@ int main(){
 return 0;
 }*/
 //***********corresspodence of arrays ********
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
 int arr1[10] = {0,1,2,3,4,5,6,7,8,9};
@@ -233,4 +233,28 @@ if(arr1[1]==arr2[1],arr1[2]==arr2[2],arr1[3]==arr2[3],arr1[4]==arr2[4],arr1[5]==
     return false;
 }
 return 0;
+}*/
+#include<iostream>
+using namespace std;
+int main(){
+int n ;
+cout<<"enter the value of n "<<endl;
+cin>>n;
+
+int arr1[n];
+int arr2[n];
+cout<<"enter the value of array 1  "<<endl;
+
+    cin>>arr1[n];
+cout<<"enter the value of array 2  "<<endl;
+    cin>>arr2[n];
+    
+if(arr1[n] != arr2[n]){
+ cout<<"not same ";
+    return false;
+}else{
+    cout<<"same ";
+    return true;
+}
+return 0; 
 }
