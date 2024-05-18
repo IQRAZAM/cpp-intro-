@@ -234,7 +234,7 @@ if(arr1[1]==arr2[1],arr1[2]==arr2[2],arr1[3]==arr2[3],arr1[4]==arr2[4],arr1[5]==
 }
 return 0;
 }*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
 int n ;
@@ -257,4 +257,18 @@ if(arr1[n] != arr2[n]){
     return true;
 }
 return 0; 
+}*/
+//********star pattern********
+#include<iostream>
+using namespace std;
+int main(){
+   int i;
+   int a;
+   for(i=1;i<=6;i++){
+    for(a=6;a>=i;a--){
+        cout<<"*";
+    }
+    cout<<endl;
+   }
+return 0;
 }
