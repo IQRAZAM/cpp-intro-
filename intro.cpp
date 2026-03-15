@@ -259,7 +259,7 @@ if(arr1[n] != arr2[n]){
 return 0; 
 }*/
 //********star pattern********
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
    int i;
@@ -271,4 +271,43 @@ int main(){
     cout<<endl;
    }
 return 0;
+}*/
+//********inheritance **********
+#include<iostream>
+#include<string>
+using namespace std;
+class cellPhone{
+    public:
+    int modelNo;
+    string manufacturer;
+    int screenSize;
+    bool isToucPhone;
+    bool has3Genabled;
+    bool hasCamera;
+       setInfo(int modelNo,string manufacturer,int screenSize,bool isTouchPhone,bool has3Genabled,bool hasCamera ){
+         this->modelNo = modelNo;
+         this->manufacturer = manufacturer;
+         this->screenSize = screenSize;
+         this->isTouchPhone = isTouchPhone;
+         this->has3Genabled = has3Genabled;
+         this->hasCamera = hasCamera;
+       }
+   void DisplayInfo(){
+     cout<<"model number"<<modelNo;
+     cout<<"manufacturer"<<manufacturer;
+     cout<<"screen size"<<screenSize;
+     cout<<"is touch phone"<<isTouchPone;
+     cout<<"has 3G enabled "<<has3Genabled;
+     cout<<"has camera "<<hasCamera;  
+       }
+       makeCall(int number){
+        cout<<"number is"
+       }
+
+};
+int main(){
+
+return 0;
 }
+
+
